@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 500px;
+    width: 5000px;
+    border: 1px solid red;
+}
+
+@media (max-width: 800px) {
+   .container {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+   }
+}
